@@ -13,7 +13,7 @@
      "//chrome/browser/search",
      "//chrome/browser/search_engine_choice:impl",
      "//chrome/browser/signin:impl",
-@@ -1644,7 +1640,6 @@ static_library("browser") {
+@@ -1645,7 +1641,6 @@ static_library("browser") {
      "//chrome/browser/renderer_context_menu:impl",
      "//chrome/browser/renderer_host",
      "//chrome/browser/resources/accessibility:resources",
@@ -43,7 +43,7 @@
        "//content/public/browser",
 --- a/chrome/browser/ui/BUILD.gn
 +++ b/chrome/browser/ui/BUILD.gn
-@@ -593,18 +593,9 @@ static_library("ui") {
+@@ -599,18 +599,9 @@ static_library("ui") {
      "//components/reading_list/core",
      "//components/renderer_context_menu",
      "//components/resources",
@@ -62,7 +62,7 @@
      "//components/schema_org/common:improved_mojom",
      "//components/search_engines",
      "//components/security_interstitials/content:security_interstitial_page",
-@@ -5651,7 +5642,6 @@ group("ui_public_dependencies") {
+@@ -5657,7 +5648,6 @@ group("ui_public_dependencies") {
      "//components/dom_distiller/core",
      "//components/enterprise/buildflags",
      "//components/paint_preview/buildflags",
